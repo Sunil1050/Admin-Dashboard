@@ -1,0 +1,18 @@
+.active-page {
+    background:deepskyblue;
+    color:#ffffff;
+    width:40px;
+    height:40px;
+    border-radius:90px;
+    margin-right:10px;
+    border-width:0px;
+}
+.inactive-page {
+    background:transparent;
+    color:#000000;
+    width:40px;
+    height:40px;
+    border-radius:90px;
+    margin-right:10px;
+    border-width:0px;
+}

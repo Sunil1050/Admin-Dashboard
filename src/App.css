@@ -1,0 +1,79 @@
+.main-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.user-list-container{
+    width:80%;
+}
+.search-bar {
+    border: 2px solid gray;
+    border-radius:10px;
+    margin-bottom:12px;
+    margin-top:22px;
+}
+.search-input {
+    outline:none;
+    background:transparent;
+    color:gray;
+    font-size:16px;
+    width:80%;
+    height:30px;
+    border-width:0px;
+    margin-left:10px;
+}
+.checkbox {
+    width:18px;
+    height:18px;
+    margin-left:12px;
+}
+.userlist-heading  {
+    color:#000000;
+    font-family: Roboto;
+    font-size:20px;
+    font-weight:bold;
+    text-align:justify;
+}
+.delete-button {
+    color:#ffffff;
+    background:red;
+    width:150px;
+    height:36px;
+    font-weight:500;
+    font-family:Roboto;
+    border-width:0px;
+    border-radius:10px;
+}
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: grey;
+  }
